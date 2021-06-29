@@ -1,0 +1,3 @@
+.class Ld/f/b/e/f/r/r0;
+.super Ljava/lang/Object;
+.source "com.google.android.gms:play-services-vision-common@@19.0.0"

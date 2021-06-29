@@ -1,0 +1,16 @@
+.class public interface abstract Lcom/google/android/gms/internal/ads/tz1;
+.super Ljava/lang/Object;
+
+
+# virtual methods
+.method public abstract a(Lcom/google/android/gms/internal/ads/wz1;)J
+.end method
+
+.method public abstract close()V
+.end method
+
+.method public abstract r0()Landroid/net/Uri;
+.end method
+
+.method public abstract read([BII)I
+.end method

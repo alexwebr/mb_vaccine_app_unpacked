@@ -1,0 +1,47 @@
+{
+    "expo": {
+        "name": "Manitoba Immunization Card",
+        "slug": "immunizationcard-mobile-app",
+        "scheme": "immunizationcard-mobile-app",
+        "version": "1.0.0",
+        "orientation": "portrait",
+        "icon": "./assets/icon.png",
+        "splash": {
+            "image": "./assets/splash.png",
+            "resizeMode": "contain",
+            "backgroundColor": "#FFFFFF"
+        },
+        "updates": {
+            "fallbackToCacheTimeout": 0
+        },
+        "assetBundlePatterns": [
+            "**/*"
+        ],
+        "ios": {
+            "bundleIdentifier": "com.govmb.immunizationcard",
+            "supportsTablet": true,
+            "buildNumber": "1.1.21"
+        },
+        "android": {
+            "adaptiveIcon": {
+                "foregroundImage": "./assets/adaptive-icon.png",
+                "backgroundColor": "#FFFFFF"
+            },
+            "package": "com.govmb.immunizationcard",
+            "permissions": [
+                "CAMERA"
+            ],
+            "versionCode": 20
+        },
+        "web": {
+            "favicon": "./assets/favicon.png"
+        },
+        "extra": {
+            "azure": {
+                "appId": "1dc2b25e-fafe-4982-8571-eb67b94023ee",
+                "tenant": "govmbcitizen",
+                "baseURL": "https://immunizationcard.manitoba.ca/api"
+            }
+        }
+    }
+}
